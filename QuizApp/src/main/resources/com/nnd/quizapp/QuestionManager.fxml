@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="386.0" styleClass="Main" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Title" text="QUAN LY CAU HOI" />
+      <TextArea prefHeight="56.0" prefWidth="340.0" promptText="Noi dung cau hoi" />
+      <HBox prefHeight="32.0" prefWidth="340.0">
+         <children>
+            <MenuButton mnemonicParsing="false" text="MenuButton">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <MenuButton mnemonicParsing="false" text="MenuButton">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+            </MenuButton>
+         </children>
+      </HBox>
+      <VBox prefHeight="60.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <RadioButton mnemonicParsing="false" />
+                  <TextArea prefHeight="50.0" prefWidth="256.0" promptText="Noi dung cau hoi" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" text="Button" />
+   </children>
+</VBox>

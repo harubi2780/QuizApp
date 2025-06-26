@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="312.0" prefWidth="271.0" spacing="20.0" styleClass="Main" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nnd.quizapp.PrimaryController">
+   <children>
+      <Label styleClass="Title" text="Quiz App" />
+      <Button fx:id="primaryButton" onAction="#HandleQuestionManager" styleClass="Button" text="Quan ly cau hoi" />
+      <Button fx:id="primaryButton1" layoutX="47.0" layoutY="67.0" onAction="#HandlePraticeMode" styleClass="Button" text="Luyen tap" />
+      <Button fx:id="primaryButton11" layoutX="47.0" layoutY="112.0" onAction="#HandleExamMode" styleClass="Button" text="thi" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
